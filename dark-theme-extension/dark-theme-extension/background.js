@@ -1,5 +1,5 @@
 chrome.action.onClicked.addListener((tab) => {
-  chrome.scripting.insertCSS({
+  chrome.scripting.insertCSS({ 
     target: { tabId: tab.id },
     files: ["dark.css"]
   });
