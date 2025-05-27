@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Dark Theme Browser",
+  "version": "1.0",
+  "description": "Applies a dark theme to all websites",
+  "permissions": ["scripting", "tabs"],
+  "action": {
+    "default_title": "Toggle Dark Theme"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon48.png"
+  }
+}
